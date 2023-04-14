@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Slab:wght@200&display=swap');
+
+/* font-family: 'Fasthand', cursive; */
+/* font-family: 'Roboto Slab', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f5ebe0;
+}
+
+nav{
+    font-size: 18px;
+    color: #ccc5b9;
+    font-family: fasthand;
+    text-align: center;
+    background-color: #403d39;
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+p.inicio{
+    font-size: 30px;
+    background-color: #403d39;
+    background-image: url(./img/logo\ fede.jpg) ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 60px; 
+}
+
+
+a{
+    color: #ccc5b9;
+    font-family: roboto slab;
+    background-color: #403d39;
+    text-decoration: none;
+    
+}
+
+dl{
+    color: #38302e;
+    font-size: 20px;
+    text-align: center;
+    font-family: roboto slab;
+    margin: 30px 45px;
+    background-size: 100px;
+}
+
+.fotoFede{
+    height: 600px;
+    width: 100%px;
+    background-size: 100% ;
+    background-image: url(./img/fede\ espejo.jpg);
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 30px 100px;
+}
+
+.redes{
+    height: 100%;
+    width: auto;
+    background-color: #403d39;
+    color: #ccc5b9;
+    text-align: center;
+    
+}
+
+
+/*Servicio */
+
+h2{
+    color: #38302e;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 15px;
+    background-size: 100px;
+    font-weight: bold;
+    font-family: roboto slab;
+}
+
+.titulo{
+    font-family: roboto slab;
+    color: #38302e;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-size: 100px;
+}
+
+.servicio{
+    font-family: roboto slab;
+    color: #38302e;
+    font-size: 23px;
+    text-align: center;
+    margin: 10px ;
+    background-size: auto;
+    display: inline-flex;
+}
+
+
+
+/* producciones */
+
+div .mujeres{
+    color: #38302e;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 15px;
+    background-size: 100px;
+    font-family: roboto slab;
+}
+
+
+.galeriaM{
+    height: auto;
+    width: auto;
+    background-color: #403d39;
+    border: 5px solid #000;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "mujeres1 mujeres2 mujeres3 mujeres3 mujeres4"
+    "mujeres1 mujeres5 mujeres3 mujeres3 mujeres6"
+    "mujeres7 mujeres7 mujeres8 mujeres9 mujeres6";
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.img{
+    background-size: cover;
+    background-position: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.img:hover{
+    transform: scale(1.03);
+    transition: all 0.9s;
+    box-shadow: 0 0 5px #000;
+}
+
+
+.mujeres1{
+    grid-area: mujeres1;
+    background-image: url(imgmujeres/1-6.jpg)
+}
+
+.mujeres2{
+    grid-area: mujeres2;
+    background-image: url(imgmujeres/2.jpg)
+
+}
+
+.mujeres3{
+    grid-area: mujeres3;
+    background-image: url(imgmujeres/3-5-8-9.jpg)
+}
+
+.mujeres4{
+    grid-area: mujeres4;
+    background-image: url(imgmujeres/5.jpg)
+}
+
+.mujeres5{
+    grid-area: mujeres5;
+    background-image: url(imgmujeres/7.jpg)
+}
+
+.mujeres6{
+    grid-area: mujeres6;
+    background-image: url(imgmujeres/10-15.jpg)
+}
+
+.mujeres7{
+    grid-area: mujeres7;
+    background-image: url(imgmujeres/11-12.jpg)
+}
+
+.mujeres8{
+    grid-area: mujeres8;
+    background-image: url(imgmujeres/13.jpg)
+}
+
+.mujeres9{
+    grid-area: mujeres9;
+    background-image: url(imgmujeres/14.jpg)
+}
+
+.galeriaH{
+    height: auto;
+    width: auto;
+    background-color: #403d39;
+    border: 5px solid #000;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "hombres1 hombres1 hombres2 hombres3 hombres4"
+    "hombres5 hombres5 hombres6 hombres6 hombres4"
+    "hombres5 hombres5 hombres7 hombres8 hombres8";
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.hombres1{
+    grid-area: hombres1;
+    background-image: url(imghombres/1.jpg);
+}
+.hombres2{
+    grid-area: hombres2;
+    background-image: url(imghombres/2.jpg);
+}
+.hombres3{
+    grid-area: hombres3;
+    background-image: url(imghombres/3.jpg);
+}
+.hombres4{
+    grid-area: hombres4;
+    background-image: url(imghombres/4.jpg);
+}
+.hombres5{
+    grid-area: hombres5;
+    background-image: url(imghombres/5.jpg);
+}
+.hombres6{
+    grid-area: hombres6;
+    background-image: url(imghombres/6.jpg);
+}
+.hombres7{
+    grid-area: hombres7;
+    background-image: url(imghombres/7.jpg);
+}
+.hombres8{
+    grid-area: hombres8;
+    background-image: url(imghombres/8.jpg);
+}
+
+.galeriaN{
+    height: auto;
+    width: auto;
+    background-color: #403d39;
+    border: 5px solid #000;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-areas: 
+    "niños1 niños1 niños2 niños3 niños4"
+    "niños1 niños1 niños5 niños3 niños6"
+    "niños7 niños7 niños8 niños9 niños9"
+    "niños10 niños11 niños11 niños9 niños9";
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ninos1{
+    grid-area: niños1;
+    background-image: url(imgniños/1.jpg);
+}
+.ninos2{
+    grid-area: niños2;
+    background-image: url(imgniños/2.jpg);
+}
+.ninos3{
+    grid-area: niños3;
+    background-image: url(imgniños/3.jpg);
+}
+.ninos4{
+    grid-area: niños4;
+    background-image: url(imgniños/4.jpg);
+}
+.ninos5{
+    grid-area: niños5;
+    background-image: url(imgniños/5.jpg);
+}
+.ninos6{
+    grid-area: niños6;
+    background-image: url(imgniños/6.jpg);
+}
+.ninos7{
+    grid-area: niños7;
+    background-image: url(imgniños/7.jpg);
+}
+.ninos8{
+    grid-area: niños8;
+    background-image: url(imgniños/8.jpg);
+}
+.ninos9{
+    grid-area: niños9;
+    background-image: url(imgniños/9.jpg);
+}
+.ninos10{
+    grid-area: niños10;
+    background-image: url(imgniños/10.jpg);
+}
+.ninos11{
+    grid-area: niños11;
+    background-image: url(imgniños/11.jpg);
+}
+
+/* contacto */
+
+.contacto{
+    color: #38302e;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 15px 70px auto;
+    background-size: 100px;
+    background-color: #f5ebe0;
+    font-family: roboto slab;
+}
+
+.msj{
+    font-family: roboto slab;
+    font-size: 30px;
+}
+.form{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    font-family: roboto slab;
+}
+
+
+
+/* ubicacion */
+.ubi{
+    color: #38302e;
+    font-size: 25px;
+    font-family: roboto slab;
+    text-align: center;
+    margin: 15px;
+    background-size: 100px;
+
+}
+
+.ubi1{
+    font-size: 25px;
+}
+
+.local{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background-image: url(./img/local-exterior1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 15px auto;
+}
+
+div .horarios{
+    color: #38302e;
+    font-size: 20px;
+    font-family: roboto slab;
+    text-align: center;
+    margin: 10px;
+    background-size: 100px;
+
+}
