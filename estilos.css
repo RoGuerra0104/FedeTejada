@@ -4,6 +4,7 @@
 /* font-family: 'Roboto Slab', serif; */
 
 * {
+
     margin: 0;
     padding: 0;
     background-color: #f5ebe0;
@@ -570,8 +571,6 @@ div .mujeres {
     }
 }
 
-
-
 /* fin media estilos niños */
 
 
@@ -618,8 +617,13 @@ div .mujeres {
     font-size: 25px;
 }
 
+.mapa{
+    height: 600px;
+    width: 100%;
+}
+
 .local {
-    width: 400px;
+    width: 320px;
     height: 400px;
     background-color: black;
     background-image: url(./img/local-exterior1.jpg);
