@@ -56,7 +56,7 @@ dl {
 
 .fotoFede {
     height: 600px;
-    width: 100%px;
+    width: 100%;
     background-size: 100%;
     background-image: url(./img/fede\ espejo.jpg);
     overflow: hidden;
@@ -76,6 +76,13 @@ dl {
 
 }
 
+@media only screen and (min-width: 320px) and ( max-width: 768px){
+    .fotoFede{
+        height: 300px;
+        margin: 10px auto;
+        background-attachment: unset;
+    }
+}
 
 /*Servicio */
 
