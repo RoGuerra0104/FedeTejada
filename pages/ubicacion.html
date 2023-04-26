@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../estilos.css">
   <title>Document</title>
 </head>
@@ -20,12 +21,12 @@
     <nav class="navbar navbar-expand-md  navbar-dark">
       <!-- Brand -->
       <a class="navbar-brand" href="../index.html"><img src="../img/logo fede.jpg" alt="" class="logo"></a>
-    
+
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
@@ -48,9 +49,9 @@
   <!-- fin de la barra de navegacion -->
 
   <!-- inicio de la seccion de ubicacion-->
-  <div class="ubi">
+  <div class="ubi" data-aos="zoom-out">
     <dl>
-      <dt class="ubi1"><strong>¿Donde Encontarnos?</strong></dt>
+      <dt class="ubi1" ><strong>¿Donde Encontarnos?</strong></dt>
       <dd>Ejercito Libertador 139<br>5515 Maipú<br> Mendoza Argentina</dd>
     </dl>
     <iframe
@@ -59,19 +60,19 @@
       referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
   </div>
 
-  <div class="local">
+  <div class="local" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
   </div>
 
   <div>
-    <p class="horarios"><strong>Horarios de Atención</strong></p>
+    <p class="horarios" data-aos="flip-left"><strong>Horarios de Atención</strong></p>
     <ul>
-      <li class="horarios">lun: Cerrado</li>
-      <li class="horarios">mar: 10:00–19:00</li>
-      <li class="horarios">mié: 10:00–19:00</li>
-      <li class="horarios">jue: 10:00–19:00</li>
-      <li class="horarios">vie: 10:00–19:00</li>
-      <li class="horarios">vie: 10:00–19:00</li>
-      <li class="horarios">dom: Cerrado</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">lun: Cerrado</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">mar: 10:00–19:00</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">mié: 10:00–19:00</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">jue: 10:00–19:00</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">vie: 10:00–19:00</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">sab: 10:00–19:00</li>
+      <li class="horarios" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">dom: Cerrado</li>
   </div>
   <!-- fin de la seccion de ubicacion -->
 
@@ -94,6 +95,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
