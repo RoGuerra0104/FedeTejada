@@ -24,6 +24,15 @@ nav {
     background-color: #403d39;
 }
 
+.nav-item{
+    transition: all (1.5s);
+}
+
+.nav-item:hover{
+    transform: scale(1.09);
+    transition: all (1.0s);
+}
+
 
 .logo {
     width: 50px;
@@ -33,7 +42,7 @@ nav {
 }
 
 .logo:hover{
-    transform: scale(1.05);
+    transform: scale(1.09);
     transition: all (1.5s);
     border-radius: 50%;
 }
@@ -633,13 +642,12 @@ div .mujeres {
 
 .local {
     width: 320px;
-    height: 400px;
-    background-color: black;
-    background-image: url(./img/local-exterior1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 100%;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center;
     margin: 15px auto;
+    padding: 15px auto;
 }
 
 .horarios {
