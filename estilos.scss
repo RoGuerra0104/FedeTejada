@@ -612,7 +612,7 @@ h3{
 
 .telefono{
     color: $color3;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin: 30px 15px 70px auto;
     background-size: 100px;
@@ -627,16 +627,8 @@ h3{
 .form{
     font-size: 20px;
     text-align: center;
-    padding-bottom: 15px;
     margin: 10px auto;
     font-family: roboto slab;
-    transform: translate(20px)
-}
-
-button{
-    text-align: center;
-    margin: 15px auto;
-    margin-bottom: 30px;
 }
 
 .btn{
@@ -645,6 +637,7 @@ button{
     border: 4px solid $color2;
     text-align: center;
     border-radius: 10px;
+    margin: 15px auto;;
 }
 
 .horarios {
