@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Slab:wght@200&display=swap");
-/* font-family: 'Fasthand', cursive; */
-/* font-family: 'Roboto Slab', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Roboto+Slab:wght@300&display=swap");
+/*Colores */
+/*tipo de texto */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,6 @@ body {
 nav {
   font-size: 18px;
   color: #ccc5b9;
-  font-family: fasthand;
   text-align: center;
   background-color: #403d39;
 }
@@ -53,7 +52,7 @@ p.inicio {
 
 a {
   color: #ccc5b9;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   background-color: #403d39;
   text-decoration: none;
 }
@@ -62,7 +61,7 @@ dl {
   color: #38302e;
   font-size: 20px;
   text-align: center;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   margin: 30px 45px;
   background-size: 100px;
 }
@@ -103,11 +102,11 @@ h2 {
   margin: 30px 15px;
   background-size: 100px;
   font-weight: bold;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
 }
 
 .titulo {
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   color: #38302e;
   font-size: 30px;
   text-align: center;
@@ -116,7 +115,7 @@ h2 {
 }
 
 .servicio {
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   color: #38302e;
   font-size: 23px;
   text-align: center;
@@ -132,7 +131,7 @@ div .mujeres {
   text-align: center;
   margin: 30px 15px;
   background-size: 100px;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
 }
 
 .galeriaM, .galeriaN, .galeriaH {
@@ -531,7 +530,7 @@ div .mujeres {
   margin: 30px 15px 70px auto;
   background-size: 100px;
   background-color: #f5ebe0;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
 }
 
 h3 {
@@ -545,11 +544,11 @@ h3 {
   margin: 30px 15px 70px auto;
   background-size: 100px;
   background-color: #f5ebe0;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
 }
 
 .msj {
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   font-size: 30px;
 }
 
@@ -557,7 +556,7 @@ h3 {
   font-size: 20px;
   text-align: center;
   margin: 10px auto;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
 }
 
 .btn {
@@ -572,7 +571,7 @@ h3 {
 .horarios {
   color: #38302e;
   font-size: 20px;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   text-align: center;
   margin: 10px;
   margin-top: 30px;
@@ -583,7 +582,7 @@ h3 {
 .ubi {
   color: #38302e;
   font-size: 25px;
-  font-family: roboto slab;
+  font-family: Roboto Slab;
   text-align: center;
   margin: 15px;
   background-size: 100px;

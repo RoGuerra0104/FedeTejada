@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Roboto+Slab:wght@300&display=swap');
 
-/* font-family: 'Fasthand', cursive; */
-/* font-family: 'Roboto Slab', serif; */
+// font-family: 'Instrument Serif', serif;
+// font-family: 'Roboto Slab', serif;
+/*Colores */
 $color1:#f5ebe0;
 $color2:#403d39;
 $color3:#38302e;
 $color4:#ccc5b9;
+/*tipo de texto */
+$font2:Roboto Slab;
 * {
     margin: 0;
     padding: 0;
@@ -19,10 +22,10 @@ body{
 nav {
     font-size: 18px;
     color: $color4;
-    font-family: fasthand;
     text-align: center;
     background-color: #403d39;
 }
+
 
 .nav-item{
     transition: all (1.5s);
@@ -59,7 +62,7 @@ p.inicio {
 
 a {
     color: $color4;
-    font-family: roboto slab;
+    font-family: $font2;
     background-color: $color2;
     text-decoration: none;
 
@@ -69,7 +72,7 @@ dl {
     color: #38302e;
     font-size: 20px;
     text-align: center;
-    font-family: roboto slab;
+    font-family: $font2;
     margin: 30px 45px;
     background-size: 100px;
 }
@@ -113,11 +116,11 @@ h2 {
     margin: 30px 15px;
     background-size: 100px;
     font-weight: bold;
-    font-family: roboto slab;
+    font-family: $font2;
 }
 
 .titulo {
-    font-family: roboto slab;
+    font-family: $font2;
     color: $color3;
     font-size: 30px;
     text-align: center;
@@ -126,7 +129,7 @@ h2 {
 }
 
 .servicio {
-    font-family: roboto slab;
+    font-family: $font2;
     color: $color3;
     font-size: 23px;
     text-align: center;
@@ -145,7 +148,7 @@ div .mujeres {
     text-align: center;
     margin: 30px 15px;
     background-size: 100px;
-    font-family: roboto slab;
+    font-family: $font2;
 }
 
 .galeriaM {
@@ -603,7 +606,7 @@ div .mujeres {
     margin: 30px 15px 70px auto;
     background-size: 100px;
     background-color: $color1;
-    font-family: roboto slab;
+    font-family: $font2;
 }
 
 h3{
@@ -617,10 +620,10 @@ h3{
     margin: 30px 15px 70px auto;
     background-size: 100px;
     background-color: $color1;
-    font-family: roboto slab;
+    font-family: $font2;
 }
 .msj {
-    font-family: roboto slab;
+    font-family: $font2;
     font-size: 30px;
 }
 
@@ -628,7 +631,7 @@ h3{
     font-size: 20px;
     text-align: center;
     margin: 10px auto;
-    font-family: roboto slab;
+    font-family: $font2;
 }
 
 .btn{
@@ -643,7 +646,7 @@ h3{
 .horarios {
     color: $color3;
     font-size: 20px;
-    font-family: roboto slab;
+    font-family: $font2;
     text-align: center;
     margin: 10px;
     margin-top: 30px;
@@ -655,7 +658,7 @@ h3{
 .ubi {
     color: $color3;
     font-size: 25px;
-    font-family: roboto slab;
+    font-family: $font2;
     text-align: center;
     margin: 15px;
     background-size: 100px;
