@@ -80,11 +80,38 @@ dl {
 }
 
 .redes {
-  height: 100%;
+  height: 60px;
   width: auto;
+  font-size: 30px;
   background-color: #403d39;
   color: #ccc5b9;
   text-align: center;
+  margin: 0px;
+}
+
+.icon {
+  height: 60px;
+  width: auto;
+  font-size: 30px;
+  background-color: #403d39;
+  color: #ccc5b9;
+  text-align: center;
+  margin: 0px;
+}
+
+footer .fa-brands {
+  color: #f5ebe0;
+  font-size: 50px;
+  background-size: 100px;
+  margin: 10px 15px;
+}
+
+footer .fa-instagram:hover {
+  color: #E1306C;
+}
+
+footer .fa-facebook:hover {
+  color: #4267B2;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -146,10 +173,11 @@ div .mujeres {
 }
 
 .galeriaM :hover, .galeriaN :hover, .galeriaH :hover {
-  transform: scale(1.06);
+  transform: scale(1.04);
   transition: all 0.9s;
   box-shadow: 0 0 5px #000;
-  border-radius: 5%;
+  border-radius: 10%;
+  opacity: 100%;
 }
 
 .img {
@@ -159,7 +187,6 @@ div .mujeres {
   border: 4px solid #f5ebe0;
   background-size: cover;
   background-position: center;
-  transition: all 0.9s;
 }
 
 .mujeres1 {
@@ -199,7 +226,7 @@ div .mujeres {
 }
 
 /* inicio media estilos mujeres  */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 320px) {
   .galeriaM, .galeriaN, .galeriaH {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(9, 200px);
@@ -457,9 +484,16 @@ div .mujeres {
 }
 
 /* inicio media estilos niños */
+@media only screen and (min-width: 320px) {
+  .galeriaN {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+  }
+}
 @media only screen and (min-width: 480px) {
   .galeriaN {
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
   }
   .ninos1 {
     grid-row: 1/3;
@@ -470,7 +504,7 @@ div .mujeres {
     height: auto;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 580px) {
   .galeriaN {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 200px);
@@ -479,7 +513,7 @@ div .mujeres {
 @media only screen and (min-width: 1024px) {
   .galeriaN {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(8, 200px);
+    grid-template-rows: repeat(7, 200px);
   }
   .ninos2 {
     grid-row: 1/3;
@@ -529,7 +563,6 @@ div .mujeres {
   text-align: center;
   margin: 30px 15px 70px auto;
   background-size: 100px;
-  background-color: #f5ebe0;
   font-family: Roboto Slab;
 }
 
@@ -602,4 +635,11 @@ h3 {
   height: 100%;
   margin: 15px auto;
   padding: 15px auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .local {
+    width: 600px;
+    height: 100%;
+  }
 }/*# sourceMappingURL=estilos.css.map */
