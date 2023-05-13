@@ -100,12 +100,20 @@ dl {
 }
 
 footer .fa-brands {
+  height: auto;
   color: #f5ebe0;
   font-size: 50px;
   background-size: 100px;
   margin: 10px 15px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .redes {
+    height: -moz-max-content;
+    height: max-content;
+    font-size: 20px;
+  }
+}
 footer .fa-instagram:hover {
   color: #E1306C;
 }
