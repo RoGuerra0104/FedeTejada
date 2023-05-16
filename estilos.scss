@@ -302,7 +302,7 @@ div .mujeres {
 @media only screen and (min-width: 1024px) {
     .galeriaM {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(10, 200px);
+        grid-template-rows: repeat(11, 200px);
     }
 
     .mujeres1 {
@@ -328,7 +328,7 @@ div .mujeres {
     }
 
     .mujeres5 {
-        grid-row: 9/11;
+        grid-row: 9/12;
         grid-column: 1/3;
         height: auto;
     }
@@ -350,7 +350,7 @@ div .mujeres {
     }
 
     .mujeres9 {
-        grid-row: 9/11;
+        grid-row: 9/12;
         grid-column: 3/4;
         height: auto;
     }
@@ -409,20 +409,46 @@ div .mujeres {
         grid-template-rows: repeat(9, 200px);
     }
 
-    .hombres4 {
-        grid-row: 4/6;
+    .hombres1{
+        grid-row: 1/3;
         height: auto;
+    }
+
+    .hombres2{
+        grid-row: 3/5;
+        height: auto;
+    }
+
+    .hombres3{
+        grid-row: 5/7;
+        height: auto;
+    }
+
+    .hombres4 {
+        grid-row: 7/9;
+        height: auto;
+    }
+
+    .hombres5{
+
     }
 }
 
 @media only screen and (min-width: 480px){
     .galeriaH{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 200px);
+        grid-template-rows: repeat(6, 200px);
     }
 
     .hombres1{
         grid-row: 1/3;
+        height: auto;
+        ;
+    }
+
+    .hombres4{
+        grid-row: 5/7;
+        grid-column: 2/3;
         height: auto;
         background-position: left;
     }
@@ -431,7 +457,7 @@ div .mujeres {
 @media only screen and (min-width: 768px){
     .galeriaH{
         grid-template-columns: 1fr 1fr ;
-        grid-template-rows: repeat(6, 200px);
+        grid-template-rows: repeat(8, 200px);
     }
 
     .hombres5{
@@ -441,30 +467,14 @@ div .mujeres {
         background-position: right;
     }
 
-    .hombres7{
-        grid-row: 5/7;
-        height: auto;
-    }
-}
-
-@media only screen and (min-width: 1024px){
-    .galeriaH{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(8, 200px);
-    }
-
-    .hombres3{
-        grid-row: 1/3;
-        grid-column: 2/3;
-        height: auto;
-    }
-
-    .hombres4{
-        grid-row: 4/7;
-    }
-
     .hombres6{
+        grid-row: 1/3;
+        height: auto;
+    }
+
+    .hombres7{
         grid-row: 7/9;
+        grid-column: 2/3;
         height: auto;
     }
 
@@ -477,7 +487,7 @@ div .mujeres {
 @media only screen and (min-width: 1024px){
     .galeriaH{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(11, 200px);
+        grid-template-rows: repeat(10, 200px);
     }
 
     .hombres1{
@@ -486,11 +496,63 @@ div .mujeres {
 
     .hombres2{
         grid-row: 1/3;
+        grid-column: 2/3;
+    }
+
+    .hombres3{
+        grid-row: 3/6;
+        grid-column: 2/3;
+        height: auto;
+    }
+
+    .hombres4{
+        grid-row: 4/7;
+        grid-column: 1/2;
+        background-position: center;
+    }
+
+    .hombres5{
+        grid-row: 7/9;
+        grid-column: 1/2;
+    }
+
+    .hombres6{
+        grid-row: 6/8;
+        grid-column: 2/3;
+        height: auto;
+    }
+
+    .hombres7{
+        grid-row: 9/11;
+        grid-column: 1/2;
+    }
+
+    .hombres8{
+        grid-row: 8/11;
+        grid-column: 2/3;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .galeriaH{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(14, 200px);
+    }
+
+    .hombres1{
+        grid-row: 1/5;
+        grid-column: 2/3;
+    }
+
+    .hombres2{
+        grid-row: 1/4;
+        grid-column: 1/2;
         height: auto;
     }
 
     .hombres3{
-        grid-row: 6/8;
+        grid-row: 5/9;
     }
 
     .hombres4{
@@ -498,7 +560,7 @@ div .mujeres {
     }
 
     .hombres5{
-        grid-row: 3/6;
+        grid-row: 9/12;
     }
 
     .hombres6{
@@ -506,11 +568,12 @@ div .mujeres {
     }
 
     .hombres7{
-        grid-row: 8/10;
+        grid-row: 12/15;
+        grid-column: 1/2;
     }
 
     .hombres8{
-        grid-row: 10/12;
+        grid-row: 12/15;
     }
 } 
 /* fin media estilos hombres */
@@ -556,14 +619,63 @@ div .mujeres {
 @media only screen and (min-width: 320px){
     .galeriaN{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 200px);
+        grid-template-rows: repeat(9, 200px);
     }
+
+    .ninos8{
+        grid-row: 8/10;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    .galeriaN{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(13, 200px);
+    }
+
+    .ninos1{
+        grid-row: 1/3;
+        height: auto;
+    }
+
+    .ninos2{
+        grid-row: 3/5;
+        height: auto;
+    }
+
+    .ninos3{
+        grid-row: 5/7;
+        height: auto;
+    }
+
+    .ninos4{
+        grid-row: 7/9;
+        height: auto;
+    }
+
+    .ninos5{
+        grid-row: 9/10;
+    }
+
+    .ninos6{
+        grid-row: 10/11;
+    }
+
+    .ninos7{
+        grid-row: 11/12;
+    }
+
+    .ninos8{
+        grid-row: 12/14;
+    }
+
 }
 
 @media only screen and (min-width: 480px){
     .galeriaN{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 200px);
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(13, 200px);
     }
 
     .ninos1{
@@ -572,7 +684,7 @@ div .mujeres {
     }
 
     .ninos3{
-        grid-row: 4/6;
+        grid-row: 5/7;
         height: auto;
     }
 }
@@ -582,32 +694,81 @@ div .mujeres {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, 200px);
     }
+
+    .ninos1{
+        grid-row: 1/3;
+        grid-column: 1/3;
+    }
+
+    .ninos3{
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+
+    .ninos4{
+        grid-row: 5/6;
+    }
+
+    .ninos5{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .ninos6{
+        grid-row: 6/7;
+    }
+
+    .ninos7{
+        grid-row: 7/8;
+    }
+
+    .ninos8{
+        grid-row: 6/8;
+        grid-column: 2/3;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .galeriaN{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(7, 200px);
+        grid-template-rows: repeat(10, 200px);
     }
 
     .ninos2{
-        grid-row: 1/3;
+        grid-row: 3/5;
         height: auto;
     }
+
+    .ninos3{
+        grid-row: 3/5;
+        grid-column: 1/2;
+    }
+
+    .ninos4{
+        grid-row: 5/7;
+        grid-column: 1/2;
+    }
+
     .ninos5{
-        grid-row: 4/6;
+        grid-row: 5/7;
         grid-column: 2/3;
         height: auto;
     }
 
+    .ninos6{
+        grid-row: 7/9;
+        grid-column: 1/3;
+        height: auto;
+    }
+
     .ninos7{
-        grid-row: 6/8;
+        grid-row: 9/11;
         grid-column: 1/2;
         height: auto;
     }
 
     .ninos8{
-        grid-row: 6/8;
+        grid-row: 9/11;
         grid-column: 2/3;
         height: auto;
     }
@@ -616,24 +777,42 @@ div .mujeres {
 @media only screen and (min-width: 1440px){
     .galeriaN{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(9, 200px);
+        grid-template-rows: repeat(15, 200px);
     }
 
     .ninos1{
-        grid-row: 1/4;
+        grid-row: 1/5;
     }
+
+    .ninos2{
+        grid-row: 5/8;
+    }
+
     .ninos3{
-        grid-row: 4/8;
+        grid-row: 5/8;
+        grid-column: 1/2;
+    }
+
+    .ninos4{
+        grid-row: 8/10;
+    }
+
+    .ninos5{
+        grid-row: 8/10;
+        grid-column: 2/3
     }
 
     .ninos6{
-        grid-row: 8/10;
+        grid-row: 10/13;
         height: auto;
     }
 
     .ninos7{
-        grid-row: 8/10;
-        grid-column: 2/3;
+        grid-row: 13/16;
+    }
+
+    .ninos8{
+        grid-row: 13/16;
     }
 }
 
